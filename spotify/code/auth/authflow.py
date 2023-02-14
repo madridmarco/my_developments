@@ -29,7 +29,7 @@ class AuthFlow:
         refresh an access token, and get the access token.
     '''
 
-    __data = path.join('auth','param','parameters.json')
+    __data = path.join('code','auth','param','parameters.json')
     __endpoin_auth = 'https://accounts.spotify.com/authorize'
     __endpoin_token = 'https://accounts.spotify.com/api/token'
     __redirect_uri = 'http://localhost:8080'
