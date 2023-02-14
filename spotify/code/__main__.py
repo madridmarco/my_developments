@@ -10,8 +10,8 @@ def main():
     
     '''
 
-    client_id_ = '4fb2c54c278e43f38f7cd9a869cc1aee'
-    client_secret = '133c3820e0824cca97c6941c95df18f6'
+    client_id_ = '<your client_id>'
+    client_secret = '<your client_secret>'
     auth = AuthFlow(client_id= client_id_, client_secret= client_secret)
     token = auth.token()
     param = { 'Authorization' : f'Bearer {token}','Accept': 'application/json'}
